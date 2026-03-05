@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #1e1e2f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quiz-container {
+    background: #2a2a3f;
+    padding: 30px 40px;
+    border-radius: 12px;
+    width: 450px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00d4ff;
+}
+
+#question {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+.nav-btn {
+    margin: 15px 10px 0 10px;
+    background: #00d4ff;
+    color: #1e1e2f;
+    font-weight: bold;
+}
+
+.correct {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.wrong {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.hide {
+    display: none;
+}
+
+#score-container {
+    text-align: center;
+}
+
+#restart-btn {
+    margin-top: 20px;
+    background: #ffc107;
+    color: #1e1e2f;
+    font-weight: bold;
+}
