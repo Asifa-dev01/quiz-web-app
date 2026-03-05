@@ -1,3 +1,4 @@
 # quiz-web-app
-Quiz web app for developers
-Author -- Asifa Waseem
+Quiz web app for developers.
+<br>
+Author - Asifa Waseem
